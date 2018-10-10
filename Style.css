@@ -1,0 +1,95 @@
+body {
+	font-family: 'Lucida Sans Unicode';
+}
+td {
+	border:  2px solid #333;
+	height: 4%;
+	width: 230px;
+	text-align:  center;
+	vertical-align:  middle;
+	border-width: 0px;
+	cursor: pointer;
+	padding: 5px;
+	
+}
+
+table {
+	display: none;
+	border-collapse: collapse;	
+}
+table tr td:last-child {
+		font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  16px;
+}
+table tr td:first-child {
+		font-family:  sans-serif;
+	font-size:  14px;
+	cursor: pointer;
+	color: #573815
+}
+#t1{
+	float:right;
+}
+header {
+  
+    background-image: linear-gradient(rgba(96, 162, 191, 0.78), rgba(208, 130, 116, 0.75)),url(cloud.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 98vh;
+	background-attachment: fixed;
+}
+#unknown {
+	display: none;
+	text-align: center;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}                                                                   
+h1 {
+    position: relative;
+    width: 100%;
+    top: 25%;
+    left: 50%; 
+ 	transform: translate(-50%, -50%);    
+	font-size: 35px;
+	text-align: center;      
+	color: #0b0e38
+}
+
+#place{
+    width:35%;
+    left: 50%; 
+	height: 7%;
+	border: 2px solid #5c659a;
+	border-radius: 150px;
+	padding-left: 2.5%;
+}
+
+.weather{
+	margin-top: 15%;
+	margin-left:30%
+}
+
+#weather-celsius {
+	border: 2px solid rgba(113, 154, 219, 0.94);
+    list-style: none;
+    display: inline-block;
+    padding: 7px 17px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(30, 19, 65, 0.94);
+    border-radius: 100px;
+    background-color: rgba(121, 244, 225, 0.69);
+}
+
+#weather-celsius:hover {
+	border: 2px solid rgba(76, 121, 190, 0.94);
+    list-style: none;
+    display: inline-block;
+    padding: 7px 17px;
+    text-decoration: none;
+    font-size: 20px;
+	color: rgba(30, 19, 65, 0.94);
+    border-radius: 100px;
+     background-color: rgba(154, 230, 219, 0.78);
+}
+

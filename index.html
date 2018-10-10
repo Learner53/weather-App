@@ -1,0 +1,86 @@
+<!Dpctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Homefuly Weather App</title>
+		<link href="Style.css" type="text/css" rel="stylesheet">
+		<link href="Responsive.css" type="text/css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	</head>
+		<body>
+			<header>
+				<h1>Welcome to Homefuly Minimalist Weather App</h1><br>
+				<div class="weather">
+  		<input id="place" value="Bangalore" placeholder="Enter Your City" type="text">&nbsp&nbsp<a href="#" id="weather-celsius">Search!</a>
+				</div><br>
+				<p id="unknown">!City Not Found</p>
+				<!--	<a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>-->
+				
+				<table id="t1">
+		<tr>
+			<td id="0">Longitude (in deg)</td>
+			<td><span id="coordLon"></span></td>
+		 
+		</tr>
+		<tr>
+			<td id="1">Latitude (in deg)</td>
+		<td><span id="coordLat"></span></td>
+			
+		</tr>
+		<tr>
+			<td id="2">Weather Condition 	</td>
+			<td><span id="weatherDescription"></span></td>
+		</tr>
+		<tr>
+			<td id="4">Temperature (in ℃ )</td>
+			<td><span id="mainTemp"></span></td>
+		</tr>	
+		<tr>
+			<td id="5">Pressure (in atm) </td>
+			<td><sapn id="mainPressure"></sapn> </td>
+					</tr>
+		<tr>
+			<td id="6">Humidity</td>
+			<td><span id="mainhumidity"></span></td>
+		</tr>
+	
+			
+		
+	</table>
+	<table id="t2">
+		<tr>
+			<td id="7">Min Temp (in ℃ )</td>
+			<td><span id="tempMin"></span></td>
+		</tr>
+		<tr>
+			<td id="8">Max Temp (in ℃ )</td>
+			<td><span id="tempMax"></span></td>
+		</tr>
+			
+		<!--<tr>
+			<td id="9">Visibility</td>
+			<td><span id="visibility"></span></td>
+		</tr>-->
+					
+		<tr>
+			<td id="10">Wind Speed (in m/s)</td>
+			<td><span id="windSpeed"></span></td>
+		</tr>
+	
+	
+		<tr>
+			<td id="11">Country Code</td>
+			<td><span id="sysCountry"></span></td>
+		</tr>
+	
+		<tr>
+			<td id="12">City Name</td>
+			<td><span id="name"></span></td>
+		</tr>
+	</table>
+				
+				</header>
+	
+			<script src="Script.js"></script>
+		</body>
+</html>
